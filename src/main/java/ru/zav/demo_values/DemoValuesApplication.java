@@ -14,6 +14,8 @@ public class DemoValuesApplication {
 
         SolarSystem solarSystem = context.getBean(SolarSystem.class);
         System.out.println(solarSystem);
+
+        context.close();
     }
 
 
